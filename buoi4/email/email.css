@@ -1,0 +1,85 @@
+body {
+	background-color: rgb(255, 255, 240);
+}
+
+textarea {
+	scrollbar-3dlight-color: #C0C0C0;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: black;
+	scrollbar-face-color: gray;
+}
+
+.imgHelp {
+	cursor: help;
+	color: blue;
+	background-color: #DDFFEE;
+	padding: 8px;
+	position: absolute;
+	right: 30%;
+}
+
+.imgHelp:active ~ #main {
+	display: none;
+}
+
+.imgHelp:active ~ #help {
+	display: block;
+}
+
+.EmailEditor {
+	background-color: #FFFFDD;
+}
+
+#main {
+	width: 600px;
+	background-color: #DDFFEE;
+	padding: 10px 20px;
+	margin: 0px auto;
+}
+
+#main h2 {
+	margin-top: 0px;
+}
+
+.group {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.group label {
+	width: 20%;
+	text-align: right;
+	padding-right: 8px;
+}
+
+.group input, .group textarea {
+	width: 50%;
+	resize: none;
+}
+
+.group button {
+	margin-right: 10px;
+}
+
+#help {
+	width: 500px;
+	height: 420px;
+	margin-top: 10px;
+	background-color: #cfc;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: none;
+	border: solid 2px  #E4E7E7;
+	color:  #303030;
+	margin: 0px auto;
+}
+
+.Close {
+	text-align: right;
+	color: blue;
+	cursor: hand;
+}
+
+ul {
+	list-style: square inside url(photos/rowing-boat.png);
+}

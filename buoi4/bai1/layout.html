@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        .menu{
+            background-color: #111;
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            width: 100%;
+            position: fixed;
+        }
+        .menu li{
+            color: white;
+            font-size: 22px;
+            padding: 15px;
+            border-right: solid 2px #383737;
+            cursor: pointer;
+        }
+        .border-none{
+            border-right: none !important;
+        }
+        .menu li:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>Trang chu</li>
+        <li>Ghi chu</li>
+        <li>My CV</li>
+        <li>My class</li>
+        <li>Lien he</li>
+        <li>Hoc vien tich cuc</li>
+        <li>Ly thuyet</li>
+        <li class="border-none">Thoat</li>
+    </ul>
+</body>
+</html>
